@@ -13,7 +13,7 @@ class BottomNavigationBarExample extends StatefulWidget {
 class _BottomNavigationBarExample extends State<BottomNavigationBarExample> {
 
   Future<void> _navigatorAndDisplaySelection(BuildContext context) async {
-    const result = "Home";
+    const result = "My orders";
 
     if (!mounted) return;
 
@@ -53,7 +53,6 @@ class _BottomNavigationBarExample extends State<BottomNavigationBarExample> {
       _selectedIndex = index;
     });
   }
-
 
 
   @override
